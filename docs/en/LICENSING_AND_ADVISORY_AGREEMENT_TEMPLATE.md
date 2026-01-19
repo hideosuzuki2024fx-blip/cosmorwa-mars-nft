@@ -1,55 +1,59 @@
-# Licensing and Advisory Agreement Template (Adoption-Ready)
+# Licensing and Advisory Agreement Template (Mission-First)
 
 ## 1. Parties
-This Agreement is between [Licensor] and [SpaceX Entity].
+This Licensing and Advisory Agreement (“Agreement”) is entered into by and between SpaceX (“Company”) and [Partner Name] (“Partner”).
 
 ## 2. Purpose
-Define the limited license for the Mars Reference Grid materials and optional advisory services.
+The purpose of this Agreement is to define a mission-first advisory and licensing relationship that supports SpaceX’s Mars mission alignment efforts, without creating any ownership claims or financial instruments.
 
-## 3. Scope of License
-Non-exclusive or exclusive license options for use of the Reference Grid schema and documentation.
+## 3. Definitions
+Key terms include “Mission Alignment Registry,” “Verification Criteria,” “Advisory Services,” and “Licensed Materials.”
 
-## 4. Intellectual Property Ownership
-Licensor retains ownership; SpaceX receives only the rights explicitly granted.
+## 4. Scope of Advisory Services
+Partner will provide mission-aligned guidance, documentation, and coordination support as requested by Company, consistent with published verification criteria.
 
-## 5. Confidentiality
-Each party shall protect confidential information and limit disclosure.
+## 5. License Grant
+Partner grants Company a non-exclusive, non-transferable license to use Licensed Materials solely for mission-aligned evaluation, reference, and public acknowledgment purposes.
 
-## 6. Term
-Initial term of [X] years with renewal options.
+## 6. Ownership and No Rights in Land
+All rights remain with their respective owners. This Agreement does not convey any land rights, territorial claims, or sovereignty interests.
 
-## 7. Termination
-Termination for convenience with notice, and for cause upon material breach.
+## 7. Confidentiality
+Each party agrees to protect confidential information disclosed under this Agreement in accordance with mutually agreed confidentiality standards.
 
-## 8. Payment Options (Non-binding)
-Option A: **Buyout** – one-time fee for perpetual license rights.
+## 8. Public Communications
+Public statements must adhere to mission-first guardrails, avoid speculative framing, and emphasize verification over market narratives.
 
-Option B: **Advisory Retainer** – monthly retainer for limited advisory hours.
+## 9. Compliance and Ethics
+Each party will comply with applicable laws and ethical standards. Nothing herein constitutes a securities offering or financial instrument.
 
-Option C: **Capped Performance-Based** – royalty or success fee with hard caps.
+## 10. Term and Termination
+The Agreement begins on the Effective Date and may be terminated by either party with written notice. Termination does not create liability for future obligations.
 
-Option D: **Non-cash Benefits** – research access, co-authorship, or in-kind support.
+## 11. Disclaimers
+The Agreement provides no guarantee of access, employment, launch opportunities, or operational participation.
 
-## 9. Reporting and Audit
-If performance-based terms are chosen, reporting and audit rights are defined here.
+## 12. Indemnification
+Each party will indemnify the other against claims arising from its own misconduct or breach of this Agreement.
 
-## 10. Liability and Indemnification
-Limitations on liability and mutual indemnification obligations.
-
-## 11. Warranty Disclaimer
-Materials provided “as-is” without implied warranties.
-
-## 12. Compliance with Law
-Parties agree to comply with applicable space law and export controls.
-
-## 13. Publicity
-No public announcements without mutual written approval.
+## 13. Limitation of Liability
+Neither party is liable for indirect, incidental, or consequential damages arising under this Agreement.
 
 ## 14. Governing Law
-Governing law: [TBD jurisdiction].
+This Agreement is governed by the laws of [Jurisdiction].
 
-## 15. Dispute Resolution
-Good-faith negotiation followed by arbitration or court process.
+## 15. Compensation Options (Choose One)
+**Option A: Buyout (Fixed Scope).** A one-time fee for a defined scope of advisory deliverables.
 
-## 16. Entire Agreement
-This document constitutes the entire agreement and supersedes prior discussions.
+**Option B: Advisory Retainer.** Periodic advisory fee tied to defined services and review cadence.
+
+**Option C: Capped Performance-Based.** A capped fee triggered only by completion of verified deliverables and explicitly limited in scope.
+
+**Option D: Non-Cash Consideration.** Recognition, access to public acknowledgments, or co-branded educational materials, without financial payment.
+
+## 16. Notices
+Notices must be delivered in writing to the addresses designated by each party.
+
+## 17. Entire Agreement
+This Agreement constitutes the entire understanding between the parties and supersedes prior discussions.
+

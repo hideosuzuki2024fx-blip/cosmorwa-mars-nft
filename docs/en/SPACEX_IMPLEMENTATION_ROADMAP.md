@@ -1,117 +1,84 @@
-# SpaceX Implementation Roadmap: Mars Reference Grid
+# SpaceX Mission-First Implementation Roadmap
 
 ## Overview
-This roadmap defines a modular, adoption-ready pathway for SpaceX. Phase 0 is a full stop point: it delivers value as a standalone reference system. Every phase includes stop/kill conditions and the minimum SpaceX support required. Monetization is not part of the core roadmap and appears only in an appendix.
+This roadmap defines a phased, mission-first adoption path centered on verifiable contributions. It starts with a reference-only Phase 0 stop point and scales only if SpaceX confirms mission value. Monetization is excluded from the main phases and reserved for an optional appendix.
 
----
-
-## Phase 0: Reference-only (Stop Point)
-**Purpose:** Establish a Mars Reference Grid with stable Reference IDs.
+## Phase 0: Reference-Only STOP POINT
+**Purpose:** Validate the concept with minimal commitment.
 
 **Deliverables**
-- Reference Grid schema (projection, resolution tiers, ID format)
-- Reference ID registry (static dataset or API)
-- Documentation and usage guidelines
+- Publish a short list of mission-aligned contribution categories.
+- Publish verification criteria and evidence requirements for each category.
+- Stand up a simple registry structure to record verified contributions.
 
-**Required Inputs**
-- Agreement on coordinate standards (publicly acceptable)
-- Minimal internal review by SpaceX mapping/ops stakeholders
+**Required SpaceX Inputs**
+- Approval of the contribution categories list.
+- Approval of verification criteria language.
+- A single point of contact for clarifications.
 
-**Verification Methods**
-- Internal usage test: can two independent teams reference the same site without ambiguity?
-- External pilot: can a third party label datasets using the IDs without confusion?
+**Verification**
+- Criteria and registry format are publicly available.
+- At least one category includes a clear, testable evidence checklist.
 
-**Minimum SpaceX Support**
-- Single technical point of contact
-- Approval to publish or internally circulate the Reference Grid
+**Stop Conditions (Kill/Stop)**
+- If criteria cannot be agreed or create reputational risk, stop.
+- If the registry creates confusion about ownership or speculation, stop.
+- If SpaceX determines the effort does not aid mission velocity, stop.
 
-**Stop/Kill Conditions**
-- If internal teams do not find the IDs helpful, stop here.
-- If the grid introduces confusion or operational overhead, stop here.
-
----
-
-## Phase 1: Contribution & Verification
-**Purpose:** Enable external contributors to submit data tied to Reference IDs and establish validation workflows.
-
+## Phase 1: Pilot Validation
 **Deliverables**
-- Contribution specification (required data, methods, provenance)
-- Verification workflow (reproducibility checks, reviewer roles)
-- Public-facing contribution portal (lightweight)
+- Accept a small set of submissions in one or more categories.
+- Verify submissions using published criteria.
+- Publish acknowledgements for verified contributions.
 
-**Required Inputs**
-- Reference Grid from Phase 0
-- Clear acceptance criteria for verified outputs
+**Required SpaceX Inputs**
+- Review or designate a verifier for pilot submissions.
+- Confirm acknowledgment language.
 
-**Verification Methods**
-- Reproducibility: independent reviewers can repeat analysis
-- Provenance integrity: data sources are auditable
+**Verification**
+- Pilot submissions are processed using the published checklist.
+- Feedback loop is documented to improve criteria.
 
-**Minimum SpaceX Support**
-- Quarterly review of acceptance criteria
-- Optional advisory feedback on verification thresholds
+**Stop Conditions**
+- If submissions create more noise than signal, stop.
+- If verification creates undue operational burden, stop.
 
-**Stop/Kill Conditions**
-- If verification burdens exceed value, pause or end Phase 1.
-- If external submissions create reputational risk, stop here.
-
----
-
-## Phase 2: Scaled Integration
-**Purpose:** Integrate high-quality external datasets into SpaceX workflows or public communications.
-
+## Phase 2: Scale Coordination
 **Deliverables**
-- Internal ingestion pipeline for verified datasets
-- Reference ID usage in public communications (optional)
-- Documentation updates for internal teams
+- Expand categories and refine criteria based on pilot results.
+- Introduce optional coordination templates for consistent submissions.
+- Publish a cadence for review and acknowledgment updates.
 
-**Required Inputs**
-- Verified datasets from Phase 1
-- Internal stakeholders willing to trial integration
+**Required SpaceX Inputs**
+- Approve expanded categories and revised criteria.
+- Approve cadence and publication format.
 
-**Verification Methods**
-- Operational test: reduced ambiguity in reports and mission planning
-- Quality audit: external datasets meet SpaceX standards
+**Verification**
+- Demonstrated reduction in low-signal submissions.
+- Improved clarity in contribution evidence standards.
 
-**Minimum SpaceX Support**
-- Small internal working group (ops + comms)
-- Approval for limited public reference ID usage
+**Stop Conditions**
+- If scaled coordination introduces misinterpretation risks, stop.
+- If resource load exceeds agreed limits, stop.
 
-**Stop/Kill Conditions**
-- If integration does not improve clarity or speed, stop or revert.
-- If public misunderstanding increases, pause external visibility.
-
----
-
-## Phase 3: Optional Expansion (Non-essential)
-**Purpose:** Optional extension for broader ecosystem partnerships.
-
+## Phase 3: Ecosystem Integration (Optional)
 **Deliverables**
-- Partner guidelines for reference ID usage
-- Public dataset licensing policies (if desired)
-- Expanded validation network
+- Formalize partnerships with aligned external organizations.
+- Establish long-term governance for criteria updates.
+- Create a stable, mission-aligned repository of verified contributions.
 
-**Required Inputs**
-- Stable Phase 2 operations
-- Policy review for external partnerships
+**Required SpaceX Inputs**
+- Approval of partner criteria and governance rules.
+- Appointment of a steward or advisor for registry integrity.
 
-**Verification Methods**
-- Partner compliance with ID usage standards
-- Ongoing quality audits
+**Verification**
+- Consistent adherence to criteria across partners.
+- Clear evidence that verified contributions support mission needs.
 
-**Minimum SpaceX Support**
-- Legal review for partner agreements
-- Light program oversight
+**Stop Conditions**
+- If partners diverge from mission priorities, stop.
+- If governance weakens trust or clarity, stop.
 
-**Stop/Kill Conditions**
-- If partner misuse harms reputation, terminate partnerships.
-- If legal risk increases, pause Phase 3.
+## Appendix: Optional Monetization (Non-Required)
+Any monetization concepts are strictly optional and must not affect the mission-first phases. They are excluded from the roadmap unless SpaceX requests an exploratory appendix after Phase 1 proves mission value.
 
----
-
-## Appendix: Optional Monetization (Not Required)
-- Sponsorship of public datasets or dashboards
-- Grants for verified contributions
-- Licensing of derivative datasets to third parties
-
-These options are optional and should not be implemented unless Phase 0–2 demonstrate clear value.
