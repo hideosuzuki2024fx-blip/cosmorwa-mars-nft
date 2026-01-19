@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team & Execution - Slide 12</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1A1A1A;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .grid-overlay {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding-top: 60px;
+            padding-left: 36px;
+            padding-right: 36px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .accent-line {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, #00F0FF, #FF4500);
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #00F0FF;
+            margin-bottom: 18px;
+            font-weight: 400;
+        }
+
+        .team-role {
+            margin-bottom: 14px;
+        }
+
+        .role-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #00F0FF;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-left: 4px solid #00F0FF;
+            padding-left: 12px;
+        }
+
+        .role-list {
+            list-style: none;
+            padding-left: 12px;
+        }
+
+        .role-item {
+            font-size: 11px;
+            color: #E0E0E0;
+            margin-bottom: 2px;
+            position: relative;
+            padding-left: 12px;
+        }
+
+        .role-item:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #FF4500;
+        }
+
+        .execution-philosophy {
+            background: rgba(0, 240, 255, 0.1);
+            border-left: 4px solid #FF4500;
+            padding: 12px 12px 12px 16px;
+            margin-top: 12px;
+        }
+
+        .philosophy-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #FF4500;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .philosophy-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .philosophy-item {
+            font-size: 11px;
+            color: #E0E0E0;
+            margin-bottom: 2px;
+            position: relative;
+            padding-left: 12px;
+        }
+
+        .philosophy-item:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #00F0FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-overlay"></div>
+
+        <div class="content">
+            <div class="accent-line"></div>
+            <h1 class="title">Team & Execution</h1>
+            <p class="subtitle">Key Roles for Success</p>
+
+            <div class="team-role">
+                <div class="role-title">CEO / Product Lead</div>
+                <ul class="role-list">
+                    <li class="role-item">Vision & strategy</li>
+                    <li class="role-item">SpaceX partnership management</li>
+                    <li class="role-item">Board relations</li>
+                </ul>
+            </div>
+
+            <div class="team-role">
+                <div class="role-title">CTO / Blockchain Lead</div>
+                <ul class="role-list">
+                    <li class="role-item">Smart contract architecture</li>
+                    <li class="role-item">Scalability solutions</li>
+                    <li class="role-item">Data integration</li>
+                </ul>
+            </div>
+
+            <div class="team-role">
+                <div class="role-title">CFO / Business Lead</div>
+                <ul class="role-list">
+                    <li class="role-item">Financial modeling</li>
+                    <li class="role-item">Revenue optimization</li>
+                    <li class="role-item">Investor relations</li>
+                </ul>
+            </div>
+
+            <div class="team-role">
+                <div class="role-title">CMO / Community Lead</div>
+                <ul class="role-list">
+                    <li class="role-item">Marketing strategy</li>
+                    <li class="role-item">Community engagement</li>
+                    <li class="role-item">Brand building</li>
+                </ul>
+            </div>
+
+            <div class="team-role">
+                <div class="role-title">Legal / Compliance Lead</div>
+                <ul class="role-list">
+                    <li class="role-item">Regulatory compliance</li>
+                    <li class="role-item">International law</li>
+                    <li class="role-item">Risk mitigation</li>
+                </ul>
+            </div>
+
+            <div class="execution-philosophy">
+                <div class="philosophy-title">Execution Philosophy</div>
+                <ul class="philosophy-list">
+                    <li class="philosophy-item">Speed to market (Q2 2026 launch)</li>
+                    <li class="philosophy-item">Agile development cycles</li>
+                    <li class="philosophy-item">Community-first approach</li>
+                    <li class="philosophy-item">Data-driven decisions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

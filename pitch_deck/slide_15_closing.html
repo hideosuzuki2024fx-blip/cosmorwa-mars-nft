@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closing - Slide 15</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1A1A1A;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .grid-overlay {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+            padding: 60px;
+        }
+
+        .accent-line {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #00F0FF, #FF4500);
+            margin: 0 auto 20px;
+        }
+
+        .main-message {
+            font-size: 56px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.2;
+        }
+
+        .tagline {
+            font-size: 20px;
+            color: #00F0FF;
+            margin-bottom: 40px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .key-takeaways {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .takeaway {
+            background: rgba(0, 240, 255, 0.05);
+            border-left: 4px solid #00F0FF;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .takeaway-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #FF4500;
+            margin-bottom: 10px;
+        }
+
+        .takeaway-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #00F0FF;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .takeaway-description {
+            font-size: 12px;
+            color: #E0E0E0;
+            line-height: 1.5;
+        }
+
+        .cta-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(0, 240, 255, 0.2);
+        }
+
+        .cta-text {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-subtitle {
+            font-size: 14px;
+            color: #E0E0E0;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 12px;
+            color: #00F0FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-overlay"></div>
+
+        <div class="content">
+            <div class="accent-line"></div>
+            <h1 class="main-message">Mars NFT Land</h1>
+            <p class="tagline">Democratizing Mars Exploration. Building the Future. Together.</p>
+
+            <div class="key-takeaways">
+                <div class="takeaway">
+                    <div class="takeaway-number">1</div>
+                    <div class="takeaway-title">Democratize</div>
+                    <div class="takeaway-description">Everyone can own Mars. Exploration is no longer exclusive to governments.</div>
+                </div>
+
+                <div class="takeaway">
+                    <div class="takeaway-number">2</div>
+                    <div class="takeaway-title">Generate Value</div>
+                    <div class="takeaway-description">$500M+ revenue by Year 3. Sustainable business model. Profitable growth.</div>
+                </div>
+
+                <div class="takeaway">
+                    <div class="takeaway-number">3</div>
+                    <div class="takeaway-title">Accelerate Discovery</div>
+                    <div class="takeaway-description">Crowdsourced data. Optimal landing sites. Competitive advantage.</div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <p class="cta-text">Let's Make It Happen</p>
+                <p class="cta-subtitle">The future of space exploration starts now.</p>
+                <p class="contact-info">Questions? Let's talk about Mars.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

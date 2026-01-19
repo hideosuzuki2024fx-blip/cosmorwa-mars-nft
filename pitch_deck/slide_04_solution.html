@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Solution - Slide 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1A1A1A;
+            position: relative;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .grid-overlay {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .content-left {
+            position: relative;
+            z-index: 2;
+            padding-top: 60px;
+            padding-left: 60px;
+            padding-right: 40px;
+        }
+
+        .content-right {
+            position: relative;
+            z-index: 2;
+            padding-top: 60px;
+            padding-right: 60px;
+            padding-left: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .accent-line {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, #00F0FF, #FF4500);
+            margin-bottom: 15px;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .intro-text {
+            font-size: 14px;
+            color: #E0E0E0;
+            margin-bottom: 35px;
+            line-height: 1.5;
+        }
+
+        .phases-list {
+            list-style: none;
+        }
+
+        .phase-item {
+            border-left: 4px solid #00F0FF;
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        .phase-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #00F0FF;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .phase-description {
+            font-size: 13px;
+            color: #E0E0E0;
+            line-height: 1.5;
+        }
+
+        .solution-image {
+            width: 500px;
+            height: 420px;
+            object-fit: cover;
+            border: 2px solid #00F0FF;
+            opacity: 0.95;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-overlay"></div>
+
+        <div class="content-left">
+            <div class="accent-line"></div>
+            <h1 class="title">The Solution</h1>
+            <p class="intro-text">Transform Mars exploration from a centralized, expert-driven process into a decentralized, community-powered optimization engine.</p>
+
+            <ul class="phases-list">
+                <li class="phase-item">
+                    <div class="phase-title">Phase 1: Tokenization</div>
+                    <div class="phase-description">SpaceX provides Mars mapping data. Surface divided into NFT parcels (1M+). Each parcel has real coordinates, geological data. NFTs tradeable on blockchain.</div>
+                </li>
+
+                <li class="phase-item">
+                    <div class="phase-title">Phase 2: Prediction</div>
+                    <div class="phase-description">Community members develop algorithms to predict rover landing sites. Geological analysis competitions. Crowdsourced data generation. SpaceX gains massive dataset.</div>
+                </li>
+
+                <li class="phase-item">
+                    <div class="phase-title">Phase 3: Discovery</div>
+                    <div class="phase-description">Rovers land on NFT-owned parcels. Discovery events trigger NFT value changes. Real-time exploration experience. Dynamic marketplace.</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content-right">
+            <img src="/home/ubuntu/cosmorwa_platform/client/public/images/mars-mapping-hero.jpg" alt="Mars Mapping Data" class="solution-image">
+        </div>
+    </div>
+</body>
+</html>

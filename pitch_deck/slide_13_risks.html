@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risks & Mitigations - Slide 13</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1A1A1A;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .grid-overlay {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding-top: 60px;
+            padding-left: 36px;
+            padding-right: 36px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .accent-line {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, #00F0FF, #FF4500);
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #00F0FF;
+            margin-bottom: 18px;
+            font-weight: 400;
+        }
+
+        .risk-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .risk-item {
+            margin-bottom: 16px;
+        }
+
+        .risk-section {
+            background: rgba(255, 69, 0, 0.1);
+            border-left: 4px solid #FF4500;
+            padding: 10px 10px 10px 14px;
+            margin-bottom: 8px;
+        }
+
+        .risk-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #FF4500;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .risk-description {
+            font-size: 11px;
+            color: #E0E0E0;
+            line-height: 1.4;
+        }
+
+        .mitigation-section {
+            background: rgba(0, 240, 255, 0.1);
+            border-left: 4px solid #00F0FF;
+            padding: 10px 10px 10px 14px;
+        }
+
+        .mitigation-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #00F0FF;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .mitigation-description {
+            font-size: 11px;
+            color: #E0E0E0;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-overlay"></div>
+
+        <div class="content">
+            <div class="accent-line"></div>
+            <h1 class="title">Risks & Mitigations</h1>
+            <p class="subtitle">Addressing Key Challenges</p>
+
+            <div class="risk-grid">
+                <div class="risk-item">
+                    <div class="risk-section">
+                        <div class="risk-title">Regulatory Risk</div>
+                        <div class="risk-description">SEC classification as securities. International legal challenges.</div>
+                    </div>
+                    <div class="mitigation-section">
+                        <div class="mitigation-title">Mitigation</div>
+                        <div class="mitigation-description">Structure as utility NFTs (not securities). Early legal review. Compliance-first approach. Regulatory partnerships.</div>
+                    </div>
+                </div>
+
+                <div class="risk-item">
+                    <div class="risk-section">
+                        <div class="risk-title">Technical Risk</div>
+                        <div class="risk-description">Blockchain scalability. Data integrity. Oracle reliability.</div>
+                    </div>
+                    <div class="mitigation-section">
+                        <div class="mitigation-title">Mitigation</div>
+                        <div class="mitigation-description">Layer 2 solutions (Arbitrum, Polygon). Chainlink oracles. Redundant data sources. Extensive testing.</div>
+                    </div>
+                </div>
+
+                <div class="risk-item">
+                    <div class="risk-section">
+                        <div class="risk-title">Adoption Risk</div>
+                        <div class="risk-description">Low user adoption. Speculation vs. utility. Community fatigue.</div>
+                    </div>
+                    <div class="mitigation-section">
+                        <div class="mitigation-title">Mitigation</div>
+                        <div class="mitigation-description">Elon Musk endorsement. Celebrity partnerships. Educational content. Gamification. Community incentives.</div>
+                    </div>
+                </div>
+
+                <div class="risk-item">
+                    <div class="risk-section">
+                        <div class="risk-title">Competitive Risk</div>
+                        <div class="risk-description">Blue Origin or NASA launches similar project. First-mover advantage erodes.</div>
+                    </div>
+                    <div class="mitigation-section">
+                        <div class="mitigation-title">Mitigation</div>
+                        <div class="mitigation-description">Speed to market (Q2 2026). Network effects lock-in. Brand moat. Continuous innovation.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

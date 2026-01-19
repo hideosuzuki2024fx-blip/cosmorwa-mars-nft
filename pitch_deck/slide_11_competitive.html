@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitive Advantages - Slide 11</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1A1A1A;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .grid-overlay {
+            position: absolute;
+            inset: 0;
+            background-image: 
+                linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            padding-top: 60px;
+            padding-left: 36px;
+            padding-right: 36px;
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .accent-line {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, #00F0FF, #FF4500);
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #00F0FF;
+            margin-bottom: 18px;
+            font-weight: 400;
+        }
+
+        .comparison {
+            margin-bottom: 16px;
+        }
+
+        .comparison-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #00F0FF;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-left: 4px solid #00F0FF;
+            padding-left: 12px;
+        }
+
+        .comparison-list {
+            list-style: none;
+            padding-left: 12px;
+        }
+
+        .comparison-item {
+            font-size: 12px;
+            color: #E0E0E0;
+            margin-bottom: 3px;
+            position: relative;
+            padding-left: 14px;
+        }
+
+        .comparison-item:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #FF4500;
+        }
+
+        .moat-section {
+            background: rgba(0, 240, 255, 0.1);
+            border-left: 4px solid #FF4500;
+            padding: 12px 12px 12px 16px;
+            margin-top: 12px;
+        }
+
+        .moat-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #FF4500;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .moat-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .moat-item {
+            font-size: 12px;
+            color: #E0E0E0;
+            margin-bottom: 3px;
+            position: relative;
+            padding-left: 14px;
+        }
+
+        .moat-item:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #00F0FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid-overlay"></div>
+
+        <div class="content">
+            <div class="accent-line"></div>
+            <h1 class="title">Competitive Advantages</h1>
+            <p class="subtitle">Why Mars NFT Land Succeeds</p>
+
+            <div class="comparison">
+                <div class="comparison-title">vs. Blue Origin</div>
+                <ul class="comparison-list">
+                    <li class="comparison-item">SpaceX has more Mars data and missions planned</li>
+                    <li class="comparison-item">Larger community of supporters</li>
+                    <li class="comparison-item">Elon Musk's Mars colonization narrative</li>
+                </ul>
+            </div>
+
+            <div class="comparison">
+                <div class="comparison-title">vs. Traditional Space Agencies</div>
+                <ul class="comparison-list">
+                    <li class="comparison-item">Faster innovation cycle</li>
+                    <li class="comparison-item">Web3-native approach</li>
+                    <li class="comparison-item">Community engagement model</li>
+                    <li class="comparison-item">Revenue generation capability</li>
+                </ul>
+            </div>
+
+            <div class="comparison">
+                <div class="comparison-title">vs. Other NFT Projects</div>
+                <ul class="comparison-list">
+                    <li class="comparison-item">Real, tangible connection to Mars exploration</li>
+                    <li class="comparison-item">SpaceX backing provides credibility</li>
+                    <li class="comparison-item">Continuous discovery events (not static)</li>
+                    <li class="comparison-item">Utility beyond speculation</li>
+                </ul>
+            </div>
+
+            <div class="moat-section">
+                <div class="moat-title">Unique Moat</div>
+                <ul class="moat-list">
+                    <li class="moat-item">Only SpaceX has access to real Mars mapping data</li>
+                    <li class="moat-item">First-mover advantage in Mars NFT space</li>
+                    <li class="moat-item">Network effects (more users = more data = better predictions)</li>
+                    <li class="moat-item">Brand power of SpaceX and Elon Musk</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

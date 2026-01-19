@@ -1,0 +1,192 @@
+{
+  "project_info": {
+    "title": "Mars NFT Land",
+    "created": 1768795890.192926,
+    "last_updated": 1768796344.864176,
+    "total_slides": 15
+  },
+  "slides": [
+    {
+      "id": "slide_01_title",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_02_problem",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_03_opportunity",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_04_solution",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_05_phase1",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_06_phase2",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_07_phase3",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_08_value",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "slide_09_financials",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "slide_10_roadmap",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "slide_11_competitive",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "slide_12_team",
+      "state": "edited",
+      "pageNum": 12
+    },
+    {
+      "id": "slide_13_risks",
+      "state": "edited",
+      "pageNum": 13
+    },
+    {
+      "id": "slide_14_why_now",
+      "state": "edited",
+      "pageNum": 14
+    },
+    {
+      "id": "slide_15_closing",
+      "state": "edited",
+      "pageNum": 15
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_01_title",
+      "title": "Mars NFT Land",
+      "summary": "Title slide introducing Mars NFT Land as a strategic proposal for SpaceX, emphasizing tokenization, community empowerment, and discovery acceleration.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/pitch-title-slide.jpg - Image 4 shows Mars covered in a digital grid and a rocket (Starship-like), perfectly illustrating the concept of 'Mars NFT Land' and 'Tokenizing Mars Exploration' for the title slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_02_problem",
+      "title": "The Problem",
+      "summary": "Current Mars exploration challenges: data bottlenecks, community disconnect, funding constraints, and competitive pressure from other space agencies.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/pitch-problem-slide.jpg - Image 5 is a direct comparison graphic contrasting 'Centralized Mars Exploration' with 'Decentralized Mars Exploration,' which directly addresses the 'Problem' of centralized, slow, and expensive exploration and sets up the solution.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_03_opportunity",
+      "title": "The Opportunity",
+      "summary": "Market convergence in 2026: NFT maturation, Mars readiness, and community engagement create the perfect window for Mars NFT Land.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_04_solution",
+      "title": "The Solution",
+      "summary": "Three-phase system overview: Tokenization (NFT parcels), Prediction (crowdsourced algorithms), Discovery (real-time events).",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/mars-mapping-hero.jpg - Image 1 shows a Mars landscape overlaid with a hexagonal grid, resource analysis data, and rovers, visually representing the 'Three-Phase System' and the data-driven nature of the solution.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_05_phase1",
+      "title": "Phase 1: Tokenization",
+      "summary": "Mars surface divided into 1M+ NFT parcels with real coordinates, geological data, and blockchain permanence.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/mars-nft-grid.jpg - Image 2 shows a digital grid on a planetary surface with coordinates, 'Owned' and 'For Sale' labels, and resource indicators (Water, Minerals), which is a perfect visual for the 'Mars Grid NFT System' and Phase 1: Tokenization.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_06_phase2",
+      "title": "Phase 2: Prediction",
+      "summary": "Community members develop algorithms to predict landing sites, generating massive dataset for SpaceX ML/AI.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_07_phase3",
+      "title": "Phase 3: Discovery",
+      "summary": "Real-time rover landing events trigger NFT value changes, creating dynamic marketplace and community engagement.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/mars-discovery-event.jpg - Image 3 shows a spacecraft landing on Mars with an 'ALERT: TOUCHDOWN CONFIRMED' and 'NEW DISCOVERY SITE' data overlay, perfectly illustrating the 'Phase 3 - Discovery' and 'Real-Time Exploration Events.'",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_08_value",
+      "title": "Value for SpaceX",
+      "summary": "Five key benefits: data generation, community engagement, exploration acceleration, revenue streams, strategic positioning.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_09_financials",
+      "title": "Financial Projections",
+      "summary": "Conservative Year 1-3 projections: $55.7M → $277M → $585M+ revenue with strong profitability.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_10_roadmap",
+      "title": "Implementation Roadmap",
+      "summary": "Phase-by-phase execution from Q1 2026 foundation through 2027+ scaling with clear milestones.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_11_competitive",
+      "title": "Competitive Advantages",
+      "summary": "Unique moat: SpaceX's Mars data access, first-mover advantage, network effects, and Elon Musk brand power.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_12_team",
+      "title": "Team & Resources",
+      "summary": "11-13 person team required across technical, business, and support functions with $3-5M Year 1 budget.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_13_risks",
+      "title": "Risks & Mitigation",
+      "summary": "Key risks (regulatory, adoption, technical, competition) with specific mitigation strategies.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_14_why_now",
+      "title": "Why Now? Why SpaceX?",
+      "summary": "Perfect timing: SpaceX's Mars missions, data access, credibility, community, and innovation culture.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_15_closing",
+      "title": "The Vision",
+      "summary": "Closing vision: 100M people owning Mars land, participating in exploration, building humanity's multi-planetary future.",
+      "image_plan": "",
+      "slide_template_key": ""
+    }
+  ]
+}
