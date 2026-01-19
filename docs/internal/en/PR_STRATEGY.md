@@ -1,4 +1,6 @@
-# Mission-First PR Strategy (SpaceX Adoption)
+**INTERNAL DOCUMENT — NOT PART OF THE PROPOSAL PACKAGE**
+
+# INTERNAL: Mission-First PR Strategy (SpaceX Adoption)
 
 ## Core Message
 Not about NFTs; about Mars mission acceleration. The public narrative must emphasize verification, contribution alignment, and SpaceX-led trust. Any market mechanisms are optional and appendix-only.
@@ -38,4 +40,3 @@ Not about NFTs; about Mars mission acceleration. The public narrative must empha
 - “Is this about NFTs?” → “No. The mission path does not require tokens or markets.”
 - “Is this land ownership?” → “No. There are no territorial rights or claims.”
 - “Is this a fundraiser?” → “No. The program is about validation, not raising capital.”
-

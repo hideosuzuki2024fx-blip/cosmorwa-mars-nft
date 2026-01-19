@@ -1,4 +1,6 @@
-# Mission-First Outreach Strategy (SpaceX Adoption)
+**INTERNAL DOCUMENT — NOT PART OF THE PROPOSAL PACKAGE**
+
+# INTERNAL: Mission-First Outreach Strategy (SpaceX Adoption)
 
 ## Purpose
 Engage mission-aligned communities with a clear, verification-first message that avoids speculation and land-sale framing. All outreach must reinforce SpaceX as the trust anchor and keep optional market mechanisms in an appendix only.
@@ -28,4 +30,3 @@ Engage mission-aligned communities with a clear, verification-first message that
 - Do not announce market mechanisms outside the appendix.
 - Keep SpaceX control and verification authority explicit.
 - Focus on evidence and validation rather than hype or speculation.
-
