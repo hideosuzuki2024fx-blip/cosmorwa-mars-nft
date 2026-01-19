@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - Financial Projections</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px; /* keep as required */
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex; flex-direction: column; padding-top: 60px; position: relative;
+        }
+        /* Header */
+        .slide-header { padding: 0 60px; margin-bottom: 16px; }
+        .slide-title { font-family: 'Space Mono', monospace; font-size: 48px; font-weight: 700; color: #FF6B6B; margin-bottom: 10px; }
+        .slide-subtitle { font-family: 'Inter', sans-serif; font-size: 16px; color: #4ECDC4; font-weight: 500; letter-spacing: 0.5px; }
+        /* Main content */
+        .slide-content { display: flex; gap: 40px; padding: 0 60px; flex: 1; align-items: flex-start; }
+        /* Left side - make year cards horizontal to reduce total height */
+        .content-left { flex: 1.2; display: flex; flex-direction: row; gap: 20px; }
+        .year-card { border-left: 4px solid #FF6B6B; padding: 16px; background: rgba(255, 107, 107, 0.05); flex: 1; }
+        .year-card:nth-child(2) { border-left-color: #4ECDC4; background: rgba(78, 205, 196, 0.05); }
+        .year-card:nth-child(3) { border-left-color: #45B7D1; background: rgba(69, 183, 209, 0.05); }
+        .year-label { font-family: 'Space Mono', monospace; font-size: 14px; font-weight: 700; color: #FFFFFF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+        .year-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .metric { display: flex; flex-direction: column; }
+        .metric-value { font-family: 'Space Mono', monospace; font-size: 24px; font-weight: 700; color: #4ECDC4; margin-bottom: 4px; }
+        .year-card:nth-child(2) .metric-value { color: #45B7D1; }
+        .year-card:nth-child(3) .metric-value { color: #FFA07A; }
+        .metric-label { font-family: 'Inter', sans-serif; font-size: 12px; color: #B0B8C8; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+        /* Right side - Summary */
+        .content-right { flex: 0.8; display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; }
+        .summary-box { background: rgba(78, 205, 196, 0.1); border-left: 4px solid #4ECDC4; padding: 20px; margin-bottom: 12px; }
+        .summary-title { font-family: 'Space Mono', monospace; font-size: 14px; font-weight: 700; color: #FFFFFF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+        .summary-stat { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(78, 205, 196, 0.2); }
+        .summary-stat:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .summary-label { font-family: 'Inter', sans-serif; font-size: 13px; color: #B0B8C8; font-weight: 500; }
+        .summary-value { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: #4ECDC4; }
+        .key-insight { background: rgba(255, 107, 107, 0.1); border-left: 4px solid #FF6B6B; padding: 16px; margin-top: 12px; }
+        .insight-title { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; color: #FF6B6B; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+        .insight-text { font-family: 'Inter', sans-serif; font-size: 13px; color: #FFFFFF; line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="slide-header">
+            <h1 class="slide-title">Financial Projections: $500M+ Revenue by Year 3</h1>
+            <p class="slide-subtitle">Conservative, achievable projections based on market analysis</p>
+        </div>
+        <!-- Content -->
+        <div class="slide-content">
+            <!-- Left: Year by year breakdown (now horizontal to reduce height) -->
+            <div class="content-left">
+                <!-- Year 1 -->
+                <div class="year-card">
+                    <div class="year-label">Year 1 Projections</div>
+                    <div class="year-metrics">
+                        <div class="metric">
+                            <div class="metric-value">$350M</div>
+                            <div class="metric-label">Primary NFT Sales</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">$85M</div>
+                            <div class="metric-label">Net Profit (30% margin)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">100K</div>
+                            <div class="metric-label">Active Users</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">Q2 2026</div>
+                            <div class="metric-label">Platform Launch</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Year 2 -->
+                <div class="year-card">
+                    <div class="year-label">Year 2 Projections</div>
+                    <div class="year-metrics">
+                        <div class="metric">
+                            <div class="metric-value">$350M</div>
+                            <div class="metric-label">Total Revenue</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">$310M</div>
+                            <div class="metric-label">Net Profit (88% margin)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">500K</div>
+                            <div class="metric-label">Active Users</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">5x</div>
+                            <div class="metric-label">User Growth</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Year 3 -->
+                <div class="year-card">
+                    <div class="year-label">Year 3 Projections</div>
+                    <div class="year-metrics">
+                        <div class="metric">
+                            <div class="metric-value">$430M</div>
+                            <div class="metric-label">Total Revenue</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">$370M</div>
+                            <div class="metric-label">Net Profit (86% margin)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">1M+</div>
+                            <div class="metric-label">Active Users</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">2x</div>
+                            <div class="metric-label">User Growth</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right: Summary & Insights -->
+            <div class="content-right">
+                <!-- Cumulative Summary -->
+                <div class="summary-box">
+                    <div class="summary-title">3-Year Cumulative</div>
+                    <div class="summary-stat">
+                        <span class="summary-label">Total Revenue</span>
+                        <span class="summary-value">$1.2B+</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="summary-label">Total Net Profit</span>
+                        <span class="summary-value">$765M+</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="summary-label">Profit Margin</span>
+                        <span class="summary-value">64%</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="summary-label">User Growth</span>
+                        <span class="summary-value">10x</span>
+                    </div>
+                </div>
+                <!-- Key Insight -->
+                <div class="key-insight">
+                    <div class="insight-title">💡 Key Insight</div>
+                    <div class="insight-text">Year 1 establishes market dominance. Year 2 scales profitably. Year 3 reaches maturity with 1M+ users and $430M revenue. Software-like margins (64%+) enable reinvestment in growth.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

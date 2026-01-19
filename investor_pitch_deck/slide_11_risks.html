@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - Risks & Mitigations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px; /* keep as required */
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px; /* must not change */
+            position: relative;
+        }
+        
+        /* Header section */
+        .slide-header {
+            padding: 0 60px;
+            margin-bottom: 24px;
+        }
+        
+        .slide-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px;
+            font-weight: 700;
+            color: #FF6B6B;
+            margin-bottom: 10px;
+        }
+        
+        .slide-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #4ECDC4;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Main content grid: reorganized into one row to reduce total height */
+        .slide-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 0 60px;
+            flex: 1;
+            align-content: start;
+        }
+        
+        /* Risk box */
+        .risk-box {
+            border-left: 4px solid;
+            padding: 12px; /* reduced inner padding */
+            background: rgba(255, 255, 255, 0.02);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Risk color variants */
+        .risk-box.regulatory {
+            border-left-color: #FF6B6B;
+        }
+        
+        .risk-box.technical {
+            border-left-color: #FFA07A;
+        }
+        
+        .risk-box.market {
+            border-left-color: #45B7D1;
+        }
+        
+        .risk-box.partnership {
+            border-left-color: #4ECDC4;
+        }
+        
+        /* Risk header */
+        .risk-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .risk-icon {
+            font-size: 24px;
+            margin-right: 12px;
+            width: 30px;
+            text-align: center;
+        }
+        
+        .risk-name {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+        
+        /* Risk level indicator */
+        .risk-level {
+            font-family: 'Inter', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            padding: 4px 8px;
+            display: inline-block;
+            width: fit-content;
+        }
+        
+        .risk-box.regulatory .risk-level {
+            background: rgba(255, 107, 107, 0.2);
+            color: #FF6B6B;
+        }
+        
+        .risk-box.technical .risk-level {
+            background: rgba(255, 160, 122, 0.2);
+            color: #FFA07A;
+        }
+        
+        .risk-box.market .risk-level {
+            background: rgba(69, 183, 209, 0.2);
+            color: #45B7D1;
+        }
+        
+        .risk-box.partnership .risk-level {
+            background: rgba(78, 205, 196, 0.2);
+            color: #4ECDC4;
+        }
+        
+        /* Risk description */
+        .risk-description {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: #B0B8C8;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        /* Mitigation section */
+        .mitigation-section {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 10px;
+            margin-top: auto; /* push footer area down inside box if space */
+        }
+        
+        .mitigation-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            color: #4ECDC4;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        
+        .mitigation-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: #FFFFFF;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+        
+        /* Bottom callout */
+        .slide-footer {
+            padding: 0 60px;
+            margin-top: 16px; /* smaller gap to pull footer up */
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .footer-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: #B0B8C8;
+            line-height: 1.6;
+        }
+        
+        .footer-highlight {
+            color: #4ECDC4;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="slide-header">
+            <h1 class="slide-title">Risks & Mitigations</h1>
+            <p class="slide-subtitle">We've identified and prepared for every major risk</p>
+        </div>
+        
+        <!-- Risk Grid (single row) -->
+        <div class="slide-content">
+            <!-- Risk 1: Regulatory -->
+            <div class="risk-box regulatory">
+                <div class="risk-header">
+                    <span class="risk-icon">⚖️</span>
+                    <span class="risk-name">Regulatory</span>
+                </div>
+                <div class="risk-level">HIGH PRIORITY</div>
+                <div class="risk-description">
+                    Outer Space Treaty prohibits territorial claims. SEC may classify NFTs as securities. Varying international regulations.
+                </div>
+                <div class="mitigation-section">
+                    <div class="mitigation-label">Mitigation Strategy</div>
+                    <div class="mitigation-text">
+                        ✓ Structure as utility NFTs (not securities)<br>
+                        ✓ Legal counsel from space law experts<br>
+                        ✓ Comply with all SEC guidelines<br>
+                        ✓ Jurisdictional compliance framework
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Risk 2: Technical -->
+            <div class="risk-box technical">
+                <div class="risk-header">
+                    <span class="risk-icon">⚙️</span>
+                    <span class="risk-name">Technical</span>
+                </div>
+                <div class="risk-level">MEDIUM PRIORITY</div>
+                <div class="risk-description">
+                    Smart contract vulnerabilities. Blockchain scalability. Data oracle reliability. Integration complexity with NASA APIs.
+                </div>
+                <div class="mitigation-section">
+                    <div class="mitigation-label">Mitigation Strategy</div>
+                    <div class="mitigation-text">
+                        ✓ Third-party smart contract audits<br>
+                        ✓ Bug bounty program ($500K)<br>
+                        ✓ Insurance coverage ($50M)<br>
+                        ✓ Polygon Layer 2 for scalability
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Risk 3: Market Adoption -->
+            <div class="risk-box market">
+                <div class="risk-header">
+                    <span class="risk-icon">📊</span>
+                    <span class="risk-name">Market Adoption</span>
+                </div>
+                <div class="risk-level">MEDIUM PRIORITY</div>
+                <div class="risk-description">
+                    User acquisition costs. Market saturation in NFT space. Competitive copycat projects. Sentiment shifts.
+                </div>
+                <div class="mitigation-section">
+                    <div class="mitigation-label">Mitigation Strategy</div>
+                    <div class="mitigation-text">
+                        ✓ Community validation pre-launch<br>
+                        ✓ Influencer partnerships ($2M budget)<br>
+                        ✓ SpaceX co-marketing advantage<br>
+                        ✓ Unique IP moat (real Mars data)
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Risk 4: Partnership Risk -->
+            <div class="risk-box partnership">
+                <div class="risk-header">
+                    <span class="risk-icon">🤝</span>
+                    <span class="risk-name">SpaceX Partnership</span>
+                </div>
+                <div class="risk-level">MEDIUM PRIORITY</div>
+                <div class="risk-description">
+                    Starship launch delays. SpaceX pivots strategy. Data sharing negotiations fail. Partnership termination.
+                </div>
+                <div class="mitigation-section">
+                    <div class="mitigation-label">Mitigation Strategy</div>
+                    <div class="mitigation-text">
+                        ✓ Contingency partnerships with NASA/ESA<br>
+                        ✓ Standalone platform viability<br>
+                        ✓ Long-term data licensing agreements<br>
+                        ✓ Independent revenue streams
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="slide-footer">
+            <div class="footer-text">
+                <span class="footer-highlight">Bottom Line:</span> We've built a risk-aware business model with contingencies for every scenario. Our legal, technical, and business strategies are designed to succeed even if individual assumptions change.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

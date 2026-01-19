@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - Competitive Advantages</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px; /* keep as required */
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px; /* do not change */
+            position: relative;
+        }
+        /* Header */
+        .slide-header {
+            padding: 0 60px;
+            margin-bottom: 12px; /* tightened */
+        }
+        .slide-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px;
+            font-weight: 700;
+            color: #FF6B6B;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+        .slide-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #4ECDC4;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        /* Content area */
+        .slide-content {
+            padding: 0 60px;
+            display: block; /* removed flex growth to avoid pushing beyond min-height */
+        }
+        /* Advantages grid - tightened spacing */
+        .advantages-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        /* Advantage box - reduced inner padding */
+        .advantage-box {
+            border-left: 4px solid;
+            padding: 12px; /* tightened */
+            background: rgba(255, 255, 255, 0.02);
+            display: flex;
+            flex-direction: column;
+        }
+        .advantage-box:nth-child(1) { border-left-color: #FF6B6B; }
+        .advantage-box:nth-child(2) { border-left-color: #4ECDC4; }
+        .advantage-box:nth-child(3) { border-left-color: #45B7D1; }
+        .advantage-box:nth-child(4) { border-left-color: #FFA07A; }
+        .advantage-box:nth-child(5) { border-left-color: #FF6B6B; grid-column: 1 / span 2; }
+        /* Advantage number */
+        .advantage-number {
+            font-family: 'Space Mono', monospace;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .advantage-box:nth-child(1) .advantage-number { color: #FF6B6B; }
+        .advantage-box:nth-child(2) .advantage-number { color: #4ECDC4; }
+        .advantage-box:nth-child(3) .advantage-number { color: #45B7D1; }
+        .advantage-box:nth-child(4) .advantage-number { color: #FFA07A; }
+        .advantage-box:nth-child(5) .advantage-number { color: #FF6B6B; }
+        /* Advantage title */
+        .advantage-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        /* Advantage description - shortened to reduce height */
+        .advantage-description {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: #B0B8C8;
+            line-height: 1.5;
+            margin-bottom: 6px;
+            max-height: 3.2em; /* limit lines to avoid overflow */
+            overflow: hidden;
+        }
+        /* Advantage metric */
+        .advantage-metric {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+        .metric-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 11px;
+            color: #B0B8C8;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
+        }
+        /* Bottom callout - tightened */
+        .competitive-summary {
+            background: rgba(78, 205, 196, 0.1);
+            border-left: 4px solid #4ECDC4;
+            padding: 10px 14px;
+            margin-top: 10px;
+        }
+        .summary-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #4ECDC4;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        .summary-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: #FFFFFF;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+        .summary-highlight {
+            color: #FF6B6B;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="slide-header">
+            <h1 class="slide-title">Why We Win</h1>
+            <p class="slide-subtitle">Five Competitive Advantages Create Defensible Moat</p>
+        </div>
+        
+        <!-- Content -->
+        <div class="slide-content">
+            <!-- Advantages Grid -->
+            <div class="advantages-grid">
+                <!-- Advantage 1 -->
+                <div class="advantage-box">
+                    <div class="advantage-number">①</div>
+                    <div class="advantage-title">SpaceX Partnership</div>
+                    <div class="advantage-description">Official Mars data and landing coordinates from NASA sources — unique, verifiable assets.</div>
+                    <div class="advantage-metric">$50M+ value</div>
+                    <div class="metric-label">Data Moat</div>
+                </div>
+                
+                <!-- Advantage 2 -->
+                <div class="advantage-box">
+                    <div class="advantage-number">②</div>
+                    <div class="advantage-title">First-Mover</div>
+                    <div class="advantage-description">First Mars NFT land product captures early market share and brand leadership.</div>
+                    <div class="advantage-metric">100K+ users</div>
+                    <div class="metric-label">Year 1 Target</div>
+                </div>
+                
+                <!-- Advantage 3 -->
+                <div class="advantage-box">
+                    <div class="advantage-number">③</div>
+                    <div class="advantage-title">Perfect Timing</div>
+                    <div class="advantage-description">Launch aligned with major Mars missions and peak media attention.</div>
+                    <div class="advantage-metric">10x media reach</div>
+                    <div class="metric-label">Projected Q2 2026</div>
+                </div>
+                
+                <!-- Advantage 4 -->
+                <div class="advantage-box">
+                    <div class="advantage-number">④</div>
+                    <div class="advantage-title">Data Moat</div>
+                    <div class="advantage-description">User-driven datasets enable proprietary models and site analytics competitors cannot replicate.</div>
+                    <div class="advantage-metric">$70M+ licensing</div>
+                    <div class="metric-label">Year 2 Revenue</div>
+                </div>
+                
+                <!-- Advantage 5 -->
+                <div class="advantage-box">
+                    <div class="advantage-number">⑤</div>
+                    <div class="advantage-title">Sustainable Revenue</div>
+                    <div class="advantage-description">Diverse revenue: primary sales, royalties, data licensing and subscriptions.</div>
+                    <div class="advantage-metric">64% margins</div>
+                    <div class="metric-label">3-Year Average</div>
+                </div>
+            </div>
+            
+            <!-- Summary -->
+            <div class="competitive-summary">
+                <div class="summary-title">🎯 Competitive Moat</div>
+                <div class="summary-text">These five advantages compound: <span class="summary-highlight">first-mover + real data + timing + community data + recurring revenue</span> — creating a strong, defensible lead.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px;
+            position: relative;
+        }
+        /* Header */
+        .slide-header {
+            padding: 0 60px;
+            margin-bottom: 20px;
+        }
+        .slide-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px;
+            font-weight: 700;
+            color: #FF6B6B;
+            margin-bottom: 10px;
+        }
+        .slide-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #4ECDC4;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        /* Main content */
+        .slide-content {
+            display: flex;
+            flex-direction: column;
+            padding: 0 60px;
+            flex: 1;
+        }
+        /* Three pillars section */
+        .pillars-container {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 24px;
+        }
+        .pillar {
+            flex: 1;
+            border-left: 4px solid #FF6B6B;
+            padding-left: 20px;
+        }
+        .pillar:nth-child(2) {
+            border-left-color: #4ECDC4;
+        }
+        .pillar:nth-child(3) {
+            border-left-color: #45B7D1;
+        }
+        .pillar-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        .pillar-roles {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .role-item {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: #B0B8C8;
+            line-height: 1.5;
+        }
+        .role-title {
+            font-weight: 600;
+            color: #FFFFFF;
+        }
+        .role-description {
+            font-size: 12px;
+            color: #8A92A8;
+            margin-top: 2px;
+        }
+        /* Commitment section */
+        .commitment-section {
+            background: rgba(78, 205, 196, 0.08);
+            border-left: 4px solid #4ECDC4;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+        }
+        .commitment-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        .commitment-items {
+            display: flex;
+            gap: 30px;
+        }
+        .commitment-item {
+            flex: 1;
+        }
+        .commitment-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #4ECDC4;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .commitment-value {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+        /* Hiring plan */
+        .hiring-section {
+            background: rgba(255, 107, 107, 0.08);
+            border-left: 4px solid #FF6B6B;
+            padding: 16px 24px;
+        }
+        .hiring-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .hiring-timeline {
+            display: flex;
+            gap: 20px;
+        }
+        .timeline-item {
+            flex: 1;
+        }
+        .timeline-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #FF6B6B;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        .timeline-value {
+            font-family: 'Space Mono', monospace;
+            font-size: 16px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+        .timeline-description {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #B0B8C8;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="slide-header">
+            <h1 class="slide-title">Team: Space + Crypto + Community</h1>
+            <p class="slide-subtitle">Unique expertise combination with all-in commitment</p>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="slide-content">
+            <!-- Three Expertise Pillars -->
+            <div class="pillars-container">
+                <!-- Space Pillar -->
+                <div class="pillar">
+                    <div class="pillar-title">Space Industry</div>
+                    <div class="pillar-roles">
+                        <div class="role-item">
+                            <div class="role-title">Chief Space Officer</div>
+                            <div class="role-description">Former SpaceX/NASA engineer</div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-title">Mars Data Lead</div>
+                            <div class="role-description">NASA Planetary Science expert</div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-title">Mission Planning</div>
+                            <div class="role-description">Starship trajectory specialist</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Crypto Pillar -->
+                <div class="pillar">
+                    <div class="pillar-title">Web3 & Blockchain</div>
+                    <div class="pillar-roles">
+                        <div class="role-item">
+                            <div class="role-title">Chief Technology Officer</div>
+                            <div class="role-description">Ethereum core developer</div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-title">Smart Contract Lead</div>
+                            <div class="role-description">Audited 100+ contracts</div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-title">DeFi Architect</div>
+                            <div class="role-description">Built $500M+ protocols</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Community Pillar -->
+                <div class="pillar">
+                    <div class="pillar-title">Community & Growth</div>
+                    <div class="pillar-roles">
+                        <div class="role-item">
+                            <div class="role-title">Chief Community Officer</div>
+                            <div class="role-description">Built 500K+ Discord communities</div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-title">Marketing Lead</div>
+                            <div class="role-description">Viral campaigns, 100M+ reach</div>
+                        </div>
+                        <div class="role-item">
+                            <div class="role-title">Partnerships</div>
+                            <div class="role-description">Fortune 500 & crypto ecosystem</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Commitment Section -->
+            <div class="commitment-section">
+                <div class="commitment-title">All-In Commitment</div>
+                <div class="commitment-items">
+                    <div class="commitment-item">
+                        <div class="commitment-label">Founder Equity</div>
+                        <div class="commitment-value">25%+ Locked</div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-label">Personal Investment</div>
+                        <div class="commitment-value">$5M+</div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-label">Full-Time Focus</div>
+                        <div class="commitment-value">100%</div>
+                    </div>
+                    <div class="commitment-item">
+                        <div class="commitment-label">Vesting Period</div>
+                        <div class="commitment-value">4 Years</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hiring Plan -->
+            <div class="hiring-section">
+                <div class="hiring-title">Hiring Plan: Building the Team</div>
+                <div class="hiring-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-label">Q2 2026</div>
+                        <div class="timeline-value">10 people</div>
+                        <div class="timeline-description">Core product team</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-label">Q3 2026</div>
+                        <div class="timeline-value">25 people</div>
+                        <div class="timeline-description">Product + marketing</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-label">Q4 2026</div>
+                        <div class="timeline-value">50+ people</div>
+                        <div class="timeline-description">Full operations team</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

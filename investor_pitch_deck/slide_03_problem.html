@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - The Problem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px;
+            position: relative;
+        }
+        
+        /* Header */
+        .slide-header {
+            padding: 0 60px;
+            margin-bottom: 50px;
+        }
+        
+        .slide-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px;
+            font-weight: 700;
+            color: #FF6B6B;
+            margin-bottom: 10px;
+        }
+        
+        .slide-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #4ECDC4;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Problems grid */
+        .problems-grid {
+            display: flex;
+            gap: 30px;
+            padding: 0 60px;
+            flex: 1;
+            align-items: stretch;
+        }
+        
+        .problem-card {
+            flex: 1;
+            background: rgba(255, 107, 107, 0.05);
+            border-left: 4px solid #FF6B6B;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: relative;
+        }
+        
+        .problem-card:nth-child(2) {
+            background: rgba(78, 205, 196, 0.05);
+            border-left-color: #4ECDC4;
+        }
+        
+        .problem-card:nth-child(3) {
+            background: rgba(69, 183, 209, 0.05);
+            border-left-color: #45B7D1;
+        }
+        
+        .problem-number {
+            font-family: 'Space Mono', monospace;
+            font-size: 56px;
+            font-weight: 700;
+            color: rgba(255, 107, 107, 0.3);
+            margin-bottom: 15px;
+        }
+        
+        .problem-card:nth-child(2) .problem-number {
+            color: rgba(78, 205, 196, 0.3);
+        }
+        
+        .problem-card:nth-child(3) .problem-number {
+            color: rgba(69, 183, 209, 0.3);
+        }
+        
+        .problem-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .problem-description {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: #B0B8C8;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .problem-impact {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: #FF6B6B;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 107, 107, 0.2);
+        }
+        
+        .problem-card:nth-child(2) .problem-impact {
+            color: #4ECDC4;
+            border-top-color: rgba(78, 205, 196, 0.2);
+        }
+        
+        .problem-card:nth-child(3) .problem-impact {
+            color: #45B7D1;
+            border-top-color: rgba(69, 183, 209, 0.2);
+        }
+        
+        /* Bottom callout */
+        .callout {
+            padding: 0 60px;
+            margin-top: 40px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            color: #4ECDC4;
+            font-weight: 600;
+        }
+        
+        .callout-highlight {
+            color: #FF6B6B;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="slide-header">
+            <h1 class="slide-title">Current Mars Exploration Has Three Fatal Flaws</h1>
+            <p class="slide-subtitle">Mars NFT Land solves all three</p>
+        </div>
+        
+        <!-- Problems -->
+        <div class="problems-grid">
+            <!-- Problem 1 -->
+            <div class="problem-card">
+                <div class="problem-number">01</div>
+                <h3 class="problem-title">Centralized & Exclusive</h3>
+                <p class="problem-description">Only governments and billionaires can participate. 8 billion people excluded from Mars exploration. Massive untapped market of enthusiasts.</p>
+                <p class="problem-impact">→ Market gap: $500M+</p>
+            </div>
+            
+            <!-- Problem 2 -->
+            <div class="problem-card">
+                <div class="problem-number">02</div>
+                <h3 class="problem-title">No Revenue Model</h3>
+                <p class="problem-description">NASA/ESA funded by taxpayers. SpaceX limited to government contracts. No sustainable revenue for Mars colonization. Funding gap: $100B+.</p>
+                <p class="problem-impact">→ Funding gap: $100B+</p>
+            </div>
+            
+            <!-- Problem 3 -->
+            <div class="problem-card">
+                <div class="problem-number">03</div>
+                <h3 class="problem-title">Wasted Data</h3>
+                <p class="problem-description">Massive Mars data generated daily. Data not monetized. Community insights not captured. Optimization opportunities missed.</p>
+                <p class="problem-impact">→ Data value: $50M+/year</p>
+            </div>
+        </div>
+        
+        <!-- Callout -->
+        <div class="callout">
+            ✓ Mars NFT Land addresses all three problems with a single platform
+        </div>
+    </div>
+</body>
+</html>

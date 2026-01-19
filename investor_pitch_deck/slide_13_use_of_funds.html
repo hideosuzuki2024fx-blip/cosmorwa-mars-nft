@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - Use of Funds</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px; /* must keep */
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px; /* never change */
+            position: relative;
+        }
+        .slide-header { text-align: center; margin-bottom: 20px; }
+        .slide-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 48px; font-weight: 700; color: #FF6B6B; margin-bottom: 12px;
+        }
+        .slide-subtitle { font-family: 'Inter', sans-serif; font-size: 16px; color: #4ECDC4; font-weight: 500; letter-spacing: 0.5px; }
+        /* Main content: two-column layout to avoid long vertical stacking */
+        .slide-content {
+            display: grid;
+            grid-template-columns: 1fr 360px; /* left: budget, right: metrics+callout */
+            gap: 20px;
+            padding: 0 60px;
+            width: 100%; max-width: 1000px;
+            align-items: start;
+        }
+        /* Budget allocation table (left column) */
+        .budget-table { width: 100%; margin-bottom: 0; }
+        .budget-header {
+            display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 12px; padding: 8px 0; border-bottom: 2px solid rgba(78,205,196,0.3); margin-bottom: 12px;
+        }
+        .header-cell { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; color: #4ECDC4; text-transform: uppercase; letter-spacing: 1px; }
+        .budget-row { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 12px; padding: 10px; border-left: 4px solid; margin-bottom: 8px; background: rgba(255,255,255,0.02); }
+        .budget-row:nth-child(1) { border-left-color: #FF6B6B; }
+        .budget-row:nth-child(2) { border-left-color: #4ECDC4; }
+        .budget-row:nth-child(3) { border-left-color: #45B7D1; }
+        .budget-row:nth-child(4) { border-left-color: #FFA07A; }
+        .category-name { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: #FFFFFF; }
+        .budget-amount { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: #4ECDC4; }
+        .budget-row:nth-child(2) .budget-amount { color: #45B7D1; }
+        .budget-row:nth-child(3) .budget-amount { color: #45B7D1; }
+        .budget-row:nth-child(4) .budget-amount { color: #FFA07A; }
+        .budget-percentage { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: #FF6B6B; }
+        .budget-description { font-family: 'Inter', sans-serif; font-size: 13px; color: #B0B8C8; line-height: 1.4; }
+        .budget-total { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 12px; padding: 10px; border-top: 2px solid rgba(78,205,196,0.3); margin-top: 12px; background: rgba(78,205,196,0.05); }
+        .total-label { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: #FFFFFF; text-transform: uppercase; }
+        .total-amount { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: #4ECDC4; }
+        .total-percentage { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: #4ECDC4; }
+        .total-description { font-family: 'Inter', sans-serif; font-size: 13px; color: #B0B8C8; font-weight: 600; }
+        /* Right column: metrics + callout stacked compactly */
+        .side-column { display: flex; flex-direction: column; gap: 12px; }
+        .metrics-section { display: grid; grid-template-columns: 1fr; gap: 12px; width: 100%; }
+        .metric-box { border-left: 4px solid #4ECDC4; padding: 10px; background: rgba(78,205,196,0.08); }
+        .metric-box:nth-child(2) { border-left-color: #45B7D1; background: rgba(69,183,209,0.08); }
+        .metric-box:nth-child(3) { border-left-color: #FF6B6B; background: rgba(255,107,107,0.08); }
+        .metric-label { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; color: #B0B8C8; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+        .metric-value { font-family: 'Space Mono', monospace; font-size: 28px; font-weight: 700; color: #4ECDC4; }
+        .metric-box:nth-child(2) .metric-value { color: #45B7D1; }
+        .metric-box:nth-child(3) .metric-value { color: #FF6B6B; }
+        .metric-description { font-family: 'Inter', sans-serif; font-size: 12px; color: #B0B8C8; margin-top: 6px; line-height: 1.4; }
+        .callout-box { border-left: 4px solid #FF6B6B; padding: 12px; background: rgba(255,107,107,0.08); width: 100%; text-align: left; }
+        .callout-title { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; color: #FF6B6B; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+        .callout-text { font-family: 'Inter', sans-serif; font-size: 16px; color: #FFFFFF; font-weight: 600; line-height: 1.4; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <div class="slide-header">
+            <h1 class="slide-title">Use of Funds</h1>
+            <p class="slide-subtitle">$20M Seed Round - Strategic Capital Deployment</p>
+        </div>
+        <!-- Content: left = budget, right = metrics+callout -->
+        <div class="slide-content">
+            <!-- Left column: Budget Table -->
+            <div class="budget-table">
+                <div class="budget-header">
+                    <div class="header-cell">Category</div>
+                    <div class="header-cell">Amount</div>
+                    <div class="header-cell">%</div>
+                    <div class="header-cell">Timeline & Details</div>
+                </div>
+                <div class="budget-row">
+                    <div class="category-name">Product Development</div>
+                    <div class="budget-amount">$8M</div>
+                    <div class="budget-percentage">40%</div>
+                    <div class="budget-description">Smart contracts, Web3 infra, NASA API, security audits</div>
+                </div>
+                <div class="budget-row">
+                    <div class="category-name">Go-to-Market</div>
+                    <div class="budget-amount">$6M</div>
+                    <div class="budget-percentage">30%</div>
+                    <div class="budget-description">Marketing, influencer partnerships, PR, community</div>
+                </div>
+                <div class="budget-row">
+                    <div class="category-name">Operations</div>
+                    <div class="budget-amount">$4M</div>
+                    <div class="budget-percentage">20%</div>
+                    <div class="budget-description">Team salaries (15), infra, legal & compliance</div>
+                </div>
+                <div class="budget-row">
+                    <div class="category-name">Contingency</div>
+                    <div class="budget-amount">$2M</div>
+                    <div class="budget-percentage">10%</div>
+                    <div class="budget-description">Buffer for unexpected costs and rapid scaling</div>
+                </div>
+                <div class="budget-total">
+                    <div class="total-label">Total Seed Round</div>
+                    <div class="total-amount">$20M</div>
+                    <div class="total-percentage">100%</div>
+                    <div class="total-description">18-month runway to profitability</div>
+                </div>
+            </div>
+            <!-- Right column: compact metrics + callout -->
+            <div class="side-column">
+                <div class="metrics-section">
+                    <div class="metric-box">
+                        <div class="metric-label">Burn Rate</div>
+                        <div class="metric-value">$1.1M/mo</div>
+                        <div class="metric-description">Sustainable with 18-month runway</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-label">Team Size</div>
+                        <div class="metric-value">15 → 50</div>
+                        <div class="metric-description">Scaling to 50+ by Q4 2026</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-label">Break-Even</div>
+                        <div class="metric-value">Month 18</div>
+                        <div class="metric-description">Profitability by Q4 2027</div>
+                    </div>
+                </div>
+                <div class="callout-box">
+                    <div class="callout-title">Capital Efficiency</div>
+                    <div class="callout-text">Software-like margins (64%+) drive reinvestment and efficient growth.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

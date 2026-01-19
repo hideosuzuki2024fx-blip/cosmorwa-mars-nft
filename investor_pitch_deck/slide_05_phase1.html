@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars NFT Land - Phase 1 Tokenization</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        
+        /* Left side - Image */
+        .slide-left {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+        
+        .image-container {
+            width: 100%;
+            height: 560px; /* reduced from 640 to balance layout */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        /* Right side - Content */
+        .slide-right {
+            flex: 1;
+            padding: 50px 40px 30px 40px; /* keep top padding (title consistency), reduce bottom + horizontal padding */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .phase-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: #4ECDC4;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .slide-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 36px;
+            font-weight: 700;
+            color: #FF6B6B;
+            margin-bottom: 16px; /* reduced from 30 to save vertical space (keeps top padding unchanged) */
+            line-height: 1.2;
+        }
+        
+        /* Content sections */
+        .content-section {
+            margin-bottom: 8px; /* reduced from 28 */
+        }
+        
+        .section-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            color: #4ECDC4;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .section-content {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: #B0B8C8;
+            line-height: 1.7;
+        }
+        
+        .highlight-number {
+            font-family: 'Space Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FF6B6B;
+            margin-right: 8px;
+        }
+        
+        .highlight-text {
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+        
+        /* Financial highlights */
+        .financial-box {
+            background: rgba(78, 205, 196, 0.1);
+            border-left: 3px solid #4ECDC4;
+            padding: 8px 12px; /* reduced from 15/20 */
+            margin-top: 15px;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .financial-box .label {
+            font-size: 11px;
+            color: #4ECDC4;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+        
+        .financial-box .value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFFFFF;
+            font-family: 'Space Mono', monospace;
+        }
+        
+        /* Tech stack */
+        .tech-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px; /* reduced from 10 */
+            font-size: 13px;
+        }
+        
+        .tech-label {
+            color: #4ECDC4;
+            font-weight: 600;
+            min-width: 80px;
+        }
+        
+        .tech-value {
+            color: #B0B8C8;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Left side - Mars NFT Grid Image -->
+        <div class="slide-left">
+            <div class="image-container">
+                <img src="/home/ubuntu/cosmorwa_platform/client/public/images/mars-nft-grid.jpg" alt="Mars NFT Grid">
+            </div>
+        </div>
+        
+        <!-- Right side - Content -->
+        <div class="slide-right">
+            <div class="phase-label">Phase 1</div>
+            <h1 class="slide-title">Tokenization<br>(Months 1-3)</h1>
+            
+            <!-- What Happens -->
+            <div class="content-section">
+                <div class="section-title">What Happens</div>
+                <div class="section-content">
+                    Mars surface divided into <span class="highlight-number">1M+</span><span class="highlight-text">grid parcels</span>. Each parcel tokenized as ERC-721 NFT with real NASA geological data: coordinates, elevation, geology, water ice probability, scientific value.
+                </div>
+            </div>
+            
+            <!-- Pricing Strategy -->
+            <div class="content-section">
+                <div class="section-title">Pricing Strategy</div>
+                <div class="section-content">
+                    Base price: <span class="highlight-text">$100-$1,000</span> per parcel. Premium parcels (high water ice probability): <span class="highlight-text">$5,000+</span>. Total initial inventory value: <span class="highlight-text">$500M+</span>.
+                </div>
+            </div>
+            
+            <!-- Revenue Model -->
+            <div class="content-section">
+                <div class="section-title">Year 1 Revenue Model</div>
+                <div class="financial-box">
+                    <div class="label">Primary Sales</div>
+                    <div class="value">$350M</div>
+                </div>
+                <div class="financial-box" style="border-left-color: #FF6B6B; background: rgba(255, 107, 107, 0.1);">
+                    <div class="label" style="color: #FF6B6B;">Platform Fee (30%)</div>
+                    <div class="value">$105M Net</div>
+                </div>
+            </div>
+            
+            <!-- Technical Stack -->
+            <div class="content-section">
+                <div class="section-title">Technical Stack</div>
+                <div class="tech-item">
+                    <span class="tech-label">Smart Contract:</span>
+                    <span class="tech-value">ERC-721 (OpenZeppelin)</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">Blockchain:</span>
+                    <span class="tech-value">Polygon (Layer 2)</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">Data Source:</span>
+                    <span class="tech-value">NASA Mars Reconnaissance Orbiter</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-label">Frontend:</span>
+                    <span class="tech-value">React + Web3.js</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

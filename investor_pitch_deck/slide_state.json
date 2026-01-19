@@ -1,0 +1,192 @@
+{
+  "project_info": {
+    "title": "Mars NFT Land",
+    "created": 1768798747.0343654,
+    "last_updated": 1768799175.8411932,
+    "total_slides": 15
+  },
+  "slides": [
+    {
+      "id": "slide_01_title",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_02_opportunity",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_03_problem",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_04_solution",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_05_phase1",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_06_phase2",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_07_phase3",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_08_financials",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "slide_09_revenue_streams",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "slide_10_competitive",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "slide_11_risks",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "slide_12_team",
+      "state": "edited",
+      "pageNum": 12
+    },
+    {
+      "id": "slide_13_use_of_funds",
+      "state": "edited",
+      "pageNum": 13
+    },
+    {
+      "id": "slide_14_returns",
+      "state": "edited",
+      "pageNum": 14
+    },
+    {
+      "id": "slide_15_closing",
+      "state": "edited",
+      "pageNum": 15
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_01_title",
+      "title": "Mars NFT Land",
+      "summary": "Democratizing Mars Exploration Through Blockchain. Own Mars. Experience Discovery. Build the Future.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/pitch-title-slide.jpg - Image 4 shows Mars covered in a digital grid and a rocket (Starship-like), perfectly illustrating the concept of 'Mars NFT Land' and 'Tokenizing Mars Exploration' for the title slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_02_opportunity",
+      "title": "The Opportunity is Massive",
+      "summary": "Three converging mega-trends create a $500M+ TAM: Space Economy ($1T+ by 2030), NFT Market Maturation ($120B in 2026), and Community Participation Explosion (100M+ Web3 users).",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/pitch-problem-slide.jpg - Image 5 is a direct comparison graphic contrasting 'Centralized Mars Exploration' with 'Decentralized Mars Exploration,' which directly addresses the 'Problem' of centralized, slow, and expensive exploration and sets up the solution.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_03_problem",
+      "title": "Current Mars Exploration Has Three Fatal Flaws",
+      "summary": "Mars exploration is centralized and exclusive, lacks sustainable revenue models, and wastes massive amounts of data. Mars NFT Land solves all three.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_04_solution",
+      "title": "The Solution: Three-Phase Model",
+      "summary": "Phase 1 tokenizes Mars into 1M+ NFTs, Phase 2 crowdsources prediction algorithms, Phase 3 monetizes real discovery events. Creates virtuous cycle of engagement, data, and revenue.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/mars-mapping-hero.jpg - Image 1 shows a Mars landscape overlaid with a hexagonal grid, resource analysis data, and rovers, visually representing the 'Three-Phase System' and the data-driven nature of the solution.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_05_phase1",
+      "title": "Phase 1: Tokenization (Months 1-3)",
+      "summary": "Tokenize Mars surface into 1M+ grid parcels as ERC-721 NFTs with real NASA geological data. Primary sales generate $350M Year 1 revenue with $105M net profit.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/mars-nft-grid.jpg - Image 2 shows a digital grid on a planetary surface with coordinates, 'Owned' and 'For Sale' labels, and resource indicators (Water, Minerals), which is a perfect visual for the 'Mars Grid NFT System' and Phase 1: Tokenization.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_06_phase2",
+      "title": "Phase 2: Prediction (Months 4-9)",
+      "summary": "Community develops prediction algorithms to optimize landing sites. SpaceX validates predictions. Crowdsourced optimization worth $50M+, generates $70M/year revenue.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_07_phase3",
+      "title": "Phase 3: Discovery (Months 10+)",
+      "summary": "Real Mars events trigger NFT value increases. Rover landings increase value 1.5-2.0x, water ice discoveries increase 2.0-5.0x. Secondary market generates $80M+ annual royalties.",
+      "image_plan": "/home/ubuntu/cosmorwa_platform/client/public/images/mars-discovery-event.jpg - Image 3 shows a spacecraft landing on Mars with an 'ALERT: TOUCHDOWN CONFIRMED' and 'NEW DISCOVERY SITE' data overlay, perfectly illustrating the 'Phase 3 - Discovery' and 'Real-Time Exploration Events.'",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_08_financials",
+      "title": "Financial Projections: $500M+ Revenue by Year 3",
+      "summary": "Year 1: $85M net profit. Year 2: $310M net profit. Year 3: $370M net profit. Cumulative 3-year profit: $765M+. User growth: 100K → 1M+ active users.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_09_revenue_streams",
+      "title": "Revenue Streams: Diversified & Sustainable",
+      "summary": "Year 1 dominated by primary sales ($350M). Year 2 adds secondary royalties ($80M). Year 3 includes data licensing ($80M), subscriptions ($50M), marketplace fees ($50M). Total Year 3 revenue: $430M.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_10_competitive",
+      "title": "Why We Win: Five Competitive Advantages",
+      "summary": "SpaceX backing with real Mars data, first-mover advantage, perfect timing (Starship Q2 2026), proprietary data moat from 100K+ users, diversified sustainable revenue model.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_11_risks",
+      "title": "Risks & Mitigations: We're Prepared",
+      "summary": "Regulatory risk mitigated by utility NFT structure. Technical risk mitigated by audits and insurance. SpaceX delay risk mitigated by contingency partnerships. Adoption risk mitigated by community validation.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_12_team",
+      "title": "Team: Space + Crypto + Community",
+      "summary": "Unique combination of space industry expertise, crypto expertise, and community expertise. All-in commitment with skin in the game. Hiring 50+ team members by Q4 2026.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_13_use_of_funds",
+      "title": "Use of Funds: $20M Seed Round",
+      "summary": "Product development 40% ($8M), Go-to-market 30% ($6M), Operations 20% ($4M), Contingency 10% ($2M). 18-month runway to profitability.",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_14_returns",
+      "title": "Investment Returns: 50-100x Opportunity",
+      "summary": "Conservative case: 21.5x returns. Base case: 38.7x returns. Optimistic case: 63x returns. Risk-adjusted expected value: 12.5-25x. Comparable exits: Axie Infinity ($3B), Magic Eden ($6B).",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_15_closing",
+      "title": "Join Us: Own the Future of Mars",
+      "summary": "We're raising $20M to build Mars NFT Land and reach 100M+ users by 2027. Perfect timing: Starship launches Q2 2026. Market ready: 100M+ Web3 users. Opportunity massive: $500M+ TAM. Let's make Mars accessible to everyone.",
+      "image_plan": "",
+      "slide_template_key": ""
+    }
+  ]
+}
