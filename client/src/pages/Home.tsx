@@ -125,9 +125,11 @@ export default function Home() {
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
                 デモを試す <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
-              <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10">
-                ホワイトペーパー
-              </Button>
+              <a href="/whitepaper">
+                <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10">
+                  ホワイトペーパー
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -245,9 +247,11 @@ export default function Home() {
             このプロジェクトは「一攫千金の暗号資産」ではなく、「宇宙データの信頼性を担保するインフラ事業」です。本気で挑戦する準備はできていますか？
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              ホワイトペーパーをダウンロード
-            </Button>
+            <a href="/whitepaper">
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+                ホワイトペーパーをダウンロード
+              </Button>
+            </a>
             <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10">
               コミュニティに参加
             </Button>
