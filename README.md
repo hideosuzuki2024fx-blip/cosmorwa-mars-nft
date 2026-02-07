@@ -2,6 +2,15 @@
 
 This repository is organized as a SpaceX-facing, mission-first adoption value proposition. The canonical proposal package lives only in the external docs below.
 
+## Portfolio Navigation
+
+- Hub / Globe UI
+  - https://github.com/hideosuzuki2024fx-blip/mars-globe-web
+- Trade Demo
+  - https://github.com/hideosuzuki2024fx-blip/mars-grid-demo
+- NFT / Chain Concept (this repository)
+  - https://github.com/hideosuzuki2024fx-blip/cosmorwa-mars-nft
+
 ## Canonical Proposal Package (External)
 - English: [`docs/external/en/`](docs/external/en/)
   - [`SPACEX_PROPOSAL_PACKAGE_SUMMARY.md`](docs/external/en/SPACEX_PROPOSAL_PACKAGE_SUMMARY.md)
